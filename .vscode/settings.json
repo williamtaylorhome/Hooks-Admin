@@ -1,0 +1,58 @@
+{
+	//Save the autoformatting code
+	"editor.formatOnSave": true,
+	"stylelint.enable": true,
+	//Enable stylelint auto-repair
+	"editor.codeActionsOnSave": {
+		"source.fixAll.stylelint": "explicit"
+	},
+	//Configure the range of file types that stylelint checks
+	"stylelint.validate": [
+		"css",
+		"less",
+		"postcss",
+		"scss",
+		"sass"
+	],
+	"files.eol": "\n",
+	"cSpell.words": [
+		"antd",
+		"anticon",
+		"Appstore",
+		"Biao",
+		"bqddxxwqmfncffacvbpkuxvwvqrhln",
+		"breakline",
+		"browserslist",
+		"cnpm",
+		"commitlint",
+		"contentright",
+		"doclock",
+		"easymock",
+		"esbuild",
+		"fangda",
+		"fastmock",
+		"Geeker",
+		"Gitee",
+		"iconfont",
+		"immer",
+		"juejin",
+		"loglevel",
+		"malefemale",
+		"nprogress",
+		"persistor",
+		"Prefixs",
+		"screenfull",
+		"Sider",
+		"styl",
+		"stylelint",
+		"stylelintignore",
+		"stylelintrc",
+		"suoxiao",
+		"truetype",
+		"zhongyingwen",
+		"zhuti"
+	],
+	"i18n-ally.localesPaths": [
+		"src/language"
+	]
+}

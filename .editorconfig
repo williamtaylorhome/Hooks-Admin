@@ -1,0 +1,15 @@
+#@see: http://editorconfig.org
+
+root = true
+
+[*] #Indicates that all documents apply
+charset = utf-8 #Set the file character set to UTF-8
+end_of_line = lf #Controls the type of line break(lf | cr | crlf)
+insert_final_newline = true #Always insert a new line at the end of the file
+indent_style = tab #Indent style(tab | space)
+indent_size = 2 #Indent size
+max_line_length = 130 #Maximum row length
+
+[*.md] #Indicates that the following rules apply only to MD files
+max_line_length = off #Turn off the maximum row length limit
+trim_trailing_whitespace = false #Turn off end space trimming
